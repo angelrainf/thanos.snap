@@ -34,15 +34,7 @@ The supplied run summary reports **25 body-size classes (0.1 g to 100 kg)**, **1
 | Spatial example: class 20 (5.62 kg) | [Class 20](figures/figure_spatial_example_class_20.pdf) |
 | Spatial example: class 25 (100 kg) | [Class 25](figures/figure_spatial_example_class_25.pdf) |
 
-## Repository organization
 
-```text
-thanos.snap/
-├── README.md          Project purpose, scenarios, and figures
-├── R/                 Source scripts (to be added)
-├── figures/           Selected output figures (PDF and README preview)
-└── .gitignore         Excludes generated data and temporary files
-```
 
 ## Data availability & Reproducibility
 
