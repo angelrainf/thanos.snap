@@ -8,11 +8,7 @@ Inspired by the fictional *Thanos snap* in the Marvel universe, **thanos.snap** 
 Analysis  used **R 4.4.3** and packages including *mobsim*, *ecopart*, *spatstat*, *vegan*, *dplyr*, *tidyr*, and *ggplot2*. Package versions and implementation is documented alongside the script. Given the computationally intensive nature of the simulations, the implementation uses the *paralel* package multi-core calculation using high-performance computing cluster. Conda environment installation instructions are provided in a *.yml* file.
 
 # Spatial simulation
-Individual spatial distributions were generated using a Thomas cluster process implemented with mobsim (May et al., 2018), using two cluster centres ("mother points") per species and a bivariate Gaussian distribution. Spatial aggregation was controlled by the dispersal parameter (σ). For assessing overall effect of mortality on communities we generated a gradient of expected aundances related to body size was followed according to Damuth's law (Damuth, 1981).
-
-$$
-N(M)=N_{\mathrm{ref}}\left(\frac{M}{M_{\mathrm{ref}}}\right)^{-0.75}
-$$
+Individual spatial distributions were generated using a Thomas cluster process implemented with mobsim (May et al., 2018), using two cluster centres ("mother points") per species and a bivariate Gaussian distribution. Spatial aggregation was controlled by the dispersal parameter (σ). To assess the effects of mortality on communities across body sizes, we generated a gradient of expected species abundances following the body size–abundance scaling relationship described by the Damuth's law  (Damuth, 1981).
 
 
 # Disturbances (mortality scenarios)
@@ -22,9 +18,10 @@ The simulations compare four scenarios with a nominal **50% mortality** disturba
 3. **Probabilistic individual 50%:** each individual has a 50% mortality probability.
 4. **Sub-regional event:** mortality is concentrated unevenly across space.
 
-The supplied run summary reports **25 body-size classes (0.1 g to 100 kg)**, **1,000 iterations**, and **30 non-overlapping, occupied sampling quadrats per iteration**. Initial ecological and simulation parameters are documented in **Supplementary Table S2** of the associated study. Please consult that table for the full parameter definitions and assumptions.
+The supplied run summary reports **25 body-size classes (0.1 g to 100 kg)**, **1,000 iterations**, and **30 non-overlapping, occupied sampling quadrats per iteration**. Initial ecological and simulation parameters are documented in **Supplementary Table S2** of the associated study.
 
 ## Examples
+These examples illustrate the spatial distribution of sampling quadrats and estimated local mortality across selected body-size classes along the simulated gradient, using the first iteration. This provides a visual comparison of how equivalent yet different mortality scenarios produce contrasting spatial patterns of mortality.
 
 | Figure | File |
 | --- | --- |
