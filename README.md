@@ -19,9 +19,17 @@ The supplied run summary reports **25 body-size classes (0.1 g to 100 kg)**, **1
 ## Main results
 Responses include realized mortality (effective individual removal from simulated events), changes in local species richness, changes in regional species richness, and changes in net Whittaker beta diversity. Across the 25 simulated body-mass classes,realized mortality stayed as expected close to 50% under all scenarios (Fig. 2A). Observed local richness losses increased along the body-mass gradient under local, regional and probabilistic mortality, whereas the sub-regional disturbance caused stronger losses (Fig. 2B). 
 Regional richness was largely maintained among smaller-bodied classes under widespread mortality but declined substantially following the sub-regional mortality event (Fig. 2D). Under sub-regional mortality, regional richness declined less strongly at intermediate body masses, s, species richness, and spatial dispersion may buffer spatially concentrated mortality. Assessed compositional changes, considered the Whittaker beta diversity change (Tatsumi et al. 2021). Net extirpation-related change in Whittaker beta diversity remained relatively stable at small body classes, then increased across most body-mass classes and mortality scenarios. Sub-regional disturbance was the main exception, producing high differentiation even at small body masses and a weaker subsequent increase, indicating distinct compositional effects of spatially concentrated mortality (Fig. 2D).
+
 <p align="center">
   <img src="figures/figure_main_response.png" width="500">
 </p>
+
+<p>
+<small>
+<b>Figure 2. Main simulation results</b> A) Realized individual mortality (%). B) Percentage change in mean local species richness. C) Percentage change in regional species richness. D) Net extirpation-related change in Whittaker beta diversity, calculated as the sum of homogenization and differentiation components attributable to local extirpations (Tatsumi <i>et al.</i> 2021). Results represent 25 simulated body-mass classes ranging from 0.1 g to 100 kg over 1,000 independent iterations per class. Local and regional diversity were evaluated across 30 non-overlapping sampled quadrats covering one-third of the simulated region. Lines indicate means across iterations, while shaded areas represent the 2.5th–97.5th percentile range.
+</small>
+</p>
+
 
 ## Examples
 
