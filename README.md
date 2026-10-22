@@ -19,7 +19,9 @@ The supplied run summary reports **25 body-size classes (0.1 g to 100 kg)**, **1
 ## Main results
 Responses include realized mortality (effective individual removal from simulated events), changes in local species richness, changes in regional species richness, and changes in net Whittaker beta diversity. Across the 25 simulated body-mass classes,realized mortality stayed as expected close to 50% under all scenarios (Fig. 2A). Observed local richness losses increased along the body-mass gradient under local, regional and probabilistic mortality, whereas the sub-regional disturbance caused stronger losses (Fig. 2B). 
 Regional richness was largely maintained among smaller-bodied classes under widespread mortality but declined substantially following the sub-regional mortality event (Fig. 2D). Under sub-regional mortality, regional richness declined less strongly at intermediate body masses, s, species richness, and spatial dispersion may buffer spatially concentrated mortality. Assessed compositional changes, considered the Whittaker beta diversity change (Tatsumi et al. 2021). Net extirpation-related change in Whittaker beta diversity remained relatively stable at small body classes, then increased across most body-mass classes and mortality scenarios. Sub-regional disturbance was the main exception, producing high differentiation even at small body masses and a weaker subsequent increase, indicating distinct compositional effects of spatially concentrated mortality (Fig. 2D).
-![Main results](figures/figure_main_response.png)
+<p align="center">
+  <img src="figures/figure_main_response.png" width="500">
+</p>
 
 ## Examples
 
