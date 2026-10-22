@@ -40,7 +40,7 @@ Modelled communities, iteration-level outputs, summary tables, and spatial examp
 
 
 
-
+**************************
 ***El hombre imaginario***
 
 *El hombre imaginario*
@@ -54,4 +54,5 @@ irreparables grietas imaginarias\
 que representan hechos imaginarios\
 ocurridos en mundos imaginarios\
 en lugares y tiempos imaginarios\
-(Nicanor Parra)
+*(Nicanor Parra)*
+**************************
