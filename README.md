@@ -5,16 +5,36 @@
 Inspired by the fictional *Thanos snap* in the Marvel universe, **thanos.snap** uses spatial simulations to explore how different distributions of individual-level mortality influence species diversity across animal body sizes. This is a hypothetical modelling exercise.
 
 ## Design
-The supplied analysis session used **R 4.4.3** and packages including *mobsim*, *ecopart*, *spatstat*, *vegan*, *dplyr*, *tidyr*, and *ggplot2*. Package versions and execution instructions should be documented alongside the scripts. Given the computationally intensive nature of the simulations, the implementation uses the *paralel* package multi-core calculation using high-performance computing cluster. Conda environment installation instructions are provided in a *.yml* file.
+Analysis  used **R 4.4.3** and packages including *mobsim*, *ecopart*, *spatstat*, *vegan*, *dplyr*, *tidyr*, and *ggplot2*. Package versions and implementation is documented alongside the script. Given the computationally intensive nature of the simulations, the implementation uses the *paralel* package multi-core calculation using high-performance computing cluster. Conda environment installation instructions are provided in a *.yml* file.
 
+# Spatial simulation
+Individual spatial distributions were generated using a Thomas cluster process implemented with mobsim (May et al., 2018), using two cluster centres ("mother points") per species and a bivariate Gaussian distribution. Spatial aggregation was controlled by the dispersal parameter (σ). For assessing overall effect of mortality on communities we generated a gradient of expected aundances related to body size was followed according to Damuth's law (Damuth, 1981).
+
+$$
+N(M)=N_{\mathrm{ref}}\left(\frac{M}{M_{\mathrm{ref}}}\right)^{-0.75}
+$$
+
+
+# Disturbances (mortality scenarios)
 The simulations compare four scenarios with a nominal **50% mortality** disturbance:
-
 1. **Regional fixed 50%:** half of individuals are removed at the regional scale.
 2. **Local fixed 50%:** half of individuals are removed within local sampling units.
 3. **Probabilistic individual 50%:** each individual has a 50% mortality probability.
 4. **Sub-regional event:** mortality is concentrated unevenly across space.
 
 The supplied run summary reports **25 body-size classes (0.1 g to 100 kg)**, **1,000 iterations**, and **30 non-overlapping, occupied sampling quadrats per iteration**. Initial ecological and simulation parameters are documented in **Supplementary Table S2** of the associated study. Please consult that table for the full parameter definitions and assumptions.
+
+## Examples
+
+| Figure | File |
+| --- | --- |
+| Spatial example: class 1 (0.1 g) | [Class 1](figures/figure_spatial_example_class_1.pdf) |
+| Spatial example: class 9 (10 g) | [Class 9](figures/figure_spatial_example_class_9.pdf) |
+| Spatial example: class 17 (1 kg) | [Class 17](figures/figure_spatial_example_class_17.pdf) |
+| Spatial example: class 20 (5.62 kg) | [Class 20](figures/figure_spatial_example_class_20.pdf) |
+| Spatial example: class 25 (100 kg) | [Class 25](figures/figure_spatial_example_class_25.pdf) |
+
+
 
 ## Main results
 Responses include realized mortality (effective individual removal from simulated events), changes in local species richness, changes in regional species richness, and changes in net Whittaker beta diversity. Across the 25 simulated body-mass classes,realized mortality stayed as expected close to 50% under all scenarios (Fig. 2A). Observed local richness losses increased along the body-mass gradient under local, regional and probabilistic mortality, whereas the sub-regional disturbance caused stronger losses (Fig. 2B). 
@@ -30,16 +50,6 @@ Regional richness was largely maintained among smaller-bodied classes under wide
 <sub>
 </p>
 
-
-## Examples
-
-| Figure | File |
-| --- | --- |
-| Spatial example: class 1 (0.1 g) | [Class 1](figures/figure_spatial_example_class_1.pdf) |
-| Spatial example: class 9 (10 g) | [Class 9](figures/figure_spatial_example_class_9.pdf) |
-| Spatial example: class 17 (1 kg) | [Class 17](figures/figure_spatial_example_class_17.pdf) |
-| Spatial example: class 20 (5.62 kg) | [Class 20](figures/figure_spatial_example_class_20.pdf) |
-| Spatial example: class 25 (100 kg) | [Class 25](figures/figure_spatial_example_class_25.pdf) |
 
 
 
@@ -66,6 +76,12 @@ ocurridos en mundos imaginarios\
 en lugares y tiempos imaginarios\
 *(Nicanor Parra)*
 **************************
-##References
 
-Tatsumi
+## References
+
+-May F, Gerstner K, McGlinn DJ, Xiao X and Chase JM (2018) mobsim: An r package for the simulation and measurement of biodiversity across spatial scales. Methods in Ecology and Evolution 9(6), 1401–1408. https://doi.org/10.1111/2041-210X.12986.
+
+-Tatsumi S, Iritani R and Cadotte MW (2021) Temporal changes in spatial variation: partitioning the extinction and colonisation components of beta diversity. Ecology Letters 24(5), 1063–1072. https://doi.org/10.1111/ele.13720
+
+-Damuth J (1981) Population density and body size in mammals. Nature 290(5808), 699–700. https://doi.org/10.1038/290699a0.
+
