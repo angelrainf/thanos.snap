@@ -80,20 +80,30 @@ Modelled communities, iteration-level outputs, summary tables, and spatial examp
 
 
 **************************
-***El hombre imaginario***
+<hr>
 
-*El hombre imaginario*
-vive en una mansión imaginaria\
-rodeada de árboles imaginarios\
-a la orilla de un río imaginario
+<div align="center">
+  <p><strong><em>El hombre imaginario</em></strong></p>
 
-De los muros que son imaginarios\
-penden antiguos cuadros imaginarios\
-irreparables grietas imaginarias\
-que representan hechos imaginarios\
-ocurridos en mundos imaginarios\
-en lugares y tiempos imaginarios\
-*(Nicanor Parra)*
+  <p>
+    <em>El hombre imaginario</em> vive en una mansión imaginaria<br>
+    rodeada de árboles imaginarios<br>
+    a la orilla de un río imaginario
+  </p>
+
+  <p>
+    De los muros que son imaginarios<br>
+    penden antiguos cuadros imaginarios<br>
+    irreparables grietas imaginarias<br>
+    que representan hechos imaginarios<br>
+    ocurridos en mundos imaginarios<br>
+    en lugares y tiempos imaginarios
+  </p>
+
+  <p><sub><em>— Nicanor Parra</em></sub></p>
+</div>
+
+<hr>
 **************************
 
 ## References
