@@ -79,7 +79,7 @@ Modelled communities, iteration-level outputs, summary tables, and spatial examp
 
 
 
-**************************
+
 <hr>
 
 <div align="center">
@@ -104,7 +104,7 @@ Modelled communities, iteration-level outputs, summary tables, and spatial examp
 </div>
 
 <hr>
-**************************
+
 
 ## References
 
