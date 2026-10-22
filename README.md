@@ -43,14 +43,14 @@ Modelled communities, iteration-level outputs, summary tables, and spatial examp
 ***El hombre imaginario***
 
 *El hombre imaginario*
-*vive en una mansión imaginaria*
-*rodeada de árboles imaginarios*
-*a la orilla de un río imaginario*
+vive en una mansión imaginaria\
+rodeada de árboles imaginarios\
+a la orilla de un río imaginario
 
-*De los muros que son imaginarios*
-*penden antiguos cuadros imaginarios*
-*irreparables grietas imaginarias*
-*que representan hechos imaginarios*
-*ocurridos en mundos imaginarios*
-*en lugares y tiempos imaginarios*
+De los muros que son imaginarios\
+penden antiguos cuadros imaginarios\
+irreparables grietas imaginarias\
+que representan hechos imaginarios\
+ocurridos en mundos imaginarios\
+en lugares y tiempos imaginarios
 (Nicanor Parra)
