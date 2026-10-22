@@ -1,5 +1,5 @@
 
-## What would happen to animal diversity if 50% of individuals disappeared?**
+# What would happen to animal diversity if 50% of individuals disappeared?**
 
 Inspired by the fictional *Thanos snap* in the Marvel universe, the project **Thanos Snap** uses spatial simulations to explore how different distributions of individual-level mortality influence species diversity across animal body sizes. This is a hypothetical modelling exercise.
 
@@ -7,11 +7,11 @@ Inspired by the fictional *Thanos snap* in the Marvel universe, the project **Th
 Analysis  used **R 4.4.3** and packages including *mobsim*, *ecopart*, *spatstat*, *vegan*, *dplyr*, *tidyr*, and *ggplot2*. Package versions and implementation is documented alongside the script. Given the computationally intensive nature of the simulations, the implementation uses the *paralel* package multi-core calculation using high-performance computing cluster. Conda environment installation instructions are provided in a *.yml* file.
 
 
-# Spatial simulation
+### Spatial simulation
 Individual spatial distributions were generated using a Thomas cluster process implemented with mobsim (May et al., 2018), using two cluster centres ("mother points") per species and a bivariate Gaussian distribution. Spatial aggregation was controlled by the dispersal parameter (σ). To assess the effects of mortality on communities across body sizes, we generated a gradient of expected species abundances following the body size–abundance scaling relationship described by the Damuth's law  (Damuth, 1981).
 
 
-# Disturbances (mortality scenarios)
+### Disturbances (mortality scenarios)
 The simulations compare four scenarios with a nominal **50% mortality** disturbance:
 1. **Regional fixed 50%:** half of individuals are removed at the regional scale.
 2. **Local fixed 50%:** half of individuals are removed within local sampling units.
@@ -20,7 +20,7 @@ The simulations compare four scenarios with a nominal **50% mortality** disturba
 
 The supplied run summary reports **25 body-size classes (0.1 g to 100 kg)**, **1,000 iterations**, and **30 non-overlapping, occupied sampling quadrats per iteration**. Initial ecological and simulation parameters are documented in **Supplementary Table S2** of the associated study.
 
-## Examples
+### Examples
 These examples illustrate the spatial distribution of sampling quadrats and estimated local mortality across selected body-size classes along the simulated gradient, using the first iteration. This provides a visual comparison of how equivalent yet different mortality scenarios produce contrasting spatial patterns of mortality.
 
 | Figure | File |
