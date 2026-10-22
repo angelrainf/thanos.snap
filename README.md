@@ -11,25 +11,26 @@ Most dependencies are managed via Conda, you can the `thanos_environment.yml` fi
 
 1. **Create and activate the Conda environment:**
 
+```
 conda env create -f thanos_environment.yml
 conda activate thanos-r
+```
 
 2. **Install additional R packages:**
 
 Some packages are not included in the Conda environment and must be installed separately.
-
-```
 Install *mobsim* and the required *spatstat* from CRAN:
-```
 
 ```
 Rscript -e 'install.packages(c("mobsim", "spatstat.geom", "spatstat.random"), repos="https://cloud.r-project.org")'
 ```
 
 Install *ecopart* from its GitHub repository:
+
 ```
 Rscript -e 'remotes::install_github("communityecologist/ecopart", upgrade="never")'
 ```
+
 ### Spatial simulation
 Individual spatial distributions were generated using a Thomas cluster process implemented with mobsim (May et al., 2018), using two cluster centres ("mother points") per species and a bivariate Gaussian distribution. Spatial aggregation was controlled by the dispersal parameter (σ). To assess the effects of mortality on communities across body sizes, we generated a gradient of expected species abundances following the body size–abundance scaling relationship described by the Damuth's law  (Damuth, 1981).
 
