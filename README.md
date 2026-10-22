@@ -1,11 +1,11 @@
-# Thanos.snap
 
 **What would happen to animal diversity if 50% of individuals disappeared?**
 
-Inspired by the fictional *Thanos snap* in the Marvel universe, **thanos.snap** uses spatial simulations to explore how different distributions of individual-level mortality influence species diversity across animal body sizes. This is a hypothetical modelling exercise.
+Inspired by the fictional *Thanos snap* in the Marvel universe, the project **Thanos Snap** uses spatial simulations to explore how different distributions of individual-level mortality influence species diversity across animal body sizes. This is a hypothetical modelling exercise.
 
-## Design
+## Design and implementation
 Analysis  used **R 4.4.3** and packages including *mobsim*, *ecopart*, *spatstat*, *vegan*, *dplyr*, *tidyr*, and *ggplot2*. Package versions and implementation is documented alongside the script. Given the computationally intensive nature of the simulations, the implementation uses the *paralel* package multi-core calculation using high-performance computing cluster. Conda environment installation instructions are provided in a *.yml* file.
+
 
 # Spatial simulation
 Individual spatial distributions were generated using a Thomas cluster process implemented with mobsim (May et al., 2018), using two cluster centres ("mother points") per species and a bivariate Gaussian distribution. Spatial aggregation was controlled by the dispersal parameter (σ). To assess the effects of mortality on communities across body sizes, we generated a gradient of expected species abundances following the body size–abundance scaling relationship described by the Damuth's law  (Damuth, 1981).
