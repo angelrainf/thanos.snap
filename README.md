@@ -67,7 +67,7 @@ The simulations assessed realized mortality and changes in local species richnes
 
 <p>
 <sub>
-<b>Figure 2. Main simulation results</b> A) Realized individual mortality (%). B) Percentage change in mean local species richness. C) Percentage change in regional species richness. D) Net extirpation-related change in Whittaker beta diversity, calculated as the sum of homogenization and differentiation components attributable to local extirpations (Tatsumi <i>et al.</i> 2021). Results represent 25 simulated body-mass classes ranging from 0.1 g to 100 kg over 1,000 independent iterations per class. Local and regional diversity were evaluated across 30 non-overlapping sampled quadrats covering one-third of the simulated region. Lines indicate means across iterations, while shaded areas represent the 2.5th–97.5th percentile range.
+<b>Figure. Simulation results</b> A) Realized individual mortality (%). B) Percentage change in mean local species richness. C) Percentage change in regional species richness. D) Net extirpation-related change in Whittaker beta diversity, calculated as the sum of homogenization and differentiation components attributable to local extirpations (Tatsumi <i>et al.</i> 2021). Results represent 25 simulated body-mass classes ranging from 0.1 g to 100 kg over 1,000 independent iterations per class. Local and regional diversity were evaluated across 30 non-overlapping sampled quadrats covering one-third of the simulated region. Lines indicate means across iterations, while shaded areas represent the 2.5th–97.5th percentile range.
 <sub>
 </p>
 
