@@ -1,7 +1,8 @@
 
 # What would happen to animal diversity if 50% of individuals disappeared?
+By Angel Rain-Franco & Jakob Pernthaler
 
-Inspired by the fictional *Thanos snap* in the Marvel universe, the project **Thanos Snap** uses spatial simulations to explore how different distributions of individual-level mortality influence species diversity across animal body sizes. This is a hypothetical modelling exercise.
+Inspired by the fictional *Thanos snap* in the Marvel universe, the project **Thanos Snap** uses spatial simulations to explore how different distributions of individual-level mortality influence species diversity across animal body sizes. 
 
 ## Design and implementation
 Analysis  used **R 4.4.3** and packages including *mobsim*, *ecopart*, *spatstat*, *vegan*, *dplyr*, *tidyr*, and *ggplot2*. Package versions and implementation is documented alongside the script. Given the computationally intensive nature of the simulations, the implementation uses the *paralel* package multi-core calculation using high-performance computing cluster. 
