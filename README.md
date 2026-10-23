@@ -43,7 +43,7 @@ The simulations compare four scenarios with a nominal **50% mortality** disturba
 3. **Probabilistic individual 50%:** each individual has a 50% mortality probability.
 4. **Sub-regional event:** mortality is concentrated unevenly across space.
 
-The supplied run summary reports **25 body-size classes (0.1 g to 100 kg)**, **1,000 iterations**, and **30 non-overlapping, occupied sampling quadrats per iteration**. Initial ecological and simulation parameters are documented in **Supplementary Table S2** of the associated study.
+The supplied run summary reports **25 body-size classes (0.1 g to 100 kg)**, **1,000 iterations**, and **30 non-overlapping, occupied sampling quadrats per iteration**. Initial ecological and simulation parameters are documented in **Supplementary Table S2** of the associated study. Mortality estimations are based on the sampled quadrats as they represent the observed communities.
 
 ### Examples
 These examples illustrate the spatial distribution of sampling quadrats and estimated local mortality across selected body-size classes along the simulated gradient, using the first iteration. This provides a visual comparison of how equivalent yet different mortality scenarios produce contrasting spatial patterns of mortality.
