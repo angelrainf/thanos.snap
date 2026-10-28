@@ -1,6 +1,6 @@
 
 # What would happen to animal diversity if 50% of individuals disappeared?
-By *Angel Rain-Franco & Jakob Pernthaler*
+By *Angel Rain-Franco & Jakob Pernthaler*\
 [Limnological Station, University of Zurich](https://www.botinst.uzh.ch/en/research/pernthaler/station.html)
 
 Inspired by the fictional *Thanos snap* in the Marvel universe, this project builds one spatial simulations to explore how different distributions of individual-level mortality influence species diversity across animal body sizes. 
